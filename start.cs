@@ -17,16 +17,20 @@ namespace sintax{
     class Program{
         static void Main(string[] arg) {
 
-
-
+            //explicita();
+            asd();
 
 
         }
 
         static void explicita() {
             float flo = 23.4F;
-            int num = flo;
-            Console.WriteLine("num");
+            int num = (int)flo;
+            Console.WriteLine(num);
+        }
+        static void asd() {
+            Console.WriteLine("Hello");
+            Console.ReadLine();
         }
 
 

@@ -1,0 +1,15 @@
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\bin\Debug\net7.0\Parte1.exe
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\bin\Debug\net7.0\Parte1.deps.json
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\bin\Debug\net7.0\Parte1.runtimeconfig.json
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\bin\Debug\net7.0\Parte1.dll
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\bin\Debug\net7.0\Parte1.pdb
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.csproj.AssemblyReference.cache
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.AssemblyInfoInputs.cache
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.AssemblyInfo.cs
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.csproj.CoreCompileInputs.cache
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.dll
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\refint\Parte1.dll
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.pdb
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\Parte1.genruntimeconfig.cache
+D:\Archivos\Programacion\BACKUP\Cofre\VISUAL STUDIO CODE\C#\Parte1\obj\Debug\net7.0\ref\Parte1.dll
