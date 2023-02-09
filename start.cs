@@ -25,12 +25,12 @@ namespace sintax{
 
         static void explicita() {
             float flo = 23.4F;
-            int num = (int)flo;
-            Console.WriteLine(num);
         }
         static void asd() {
-            Console.WriteLine("Hello");
-            Console.ReadLine();
+            Console.WriteLine("Insert");
+            string a1 = Console.ReadLine();
+            Console.WriteLine(a1);
+
         }
 
 
