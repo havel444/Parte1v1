@@ -21,10 +21,10 @@ namespace sintax{
             //implicita();
             //constAndImput();
             //methodsASD();
-            // Non-invocable member cannot be used like a method 
         
-        
-        
+            var ki = new methodsASD();
+            ki.example("Alan", "Torres");
+
         
         }
 

@@ -3,11 +3,9 @@ using System;
 
 namespace sintax{
     class methodsASD{
-        static void Main(string[] arg) {
-           exmple();
-        }
-    
-        static void exmple() {
+        
+
+        public void exmple() {
             Console.WriteLine("asdddddd");
         }
     
