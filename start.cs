@@ -18,9 +18,14 @@ namespace sintax{
         static void Main(string[] arg) {
 
             //explicita();
-            //implicita();
-            constAndImput();
-
+            implicita();
+            //constAndImput();
+        
+        
+        
+        
+        
+        
         }
 
         static void explicita() {
