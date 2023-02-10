@@ -17,28 +17,26 @@ namespace sintax{
     class Program{
         static void Main(string[] arg) {
 
-            //explicita();
-            asd();
+            explicita();
+            //implicita();
 
 
         }
 
         static void explicita() {
             float flo = 23.4F;
+            int ent = (int)flo;
+            Console.WriteLine($"ent is: {ent}");
         }
-        static void asd() {
-            Console.WriteLine("Insert");
-            string a1 = Console.ReadLine();
-            Console.WriteLine(a1);
-
+        static void implicita() {
+            int ent = 23;
+            double dou = ent;
+            Console.WriteLine($"dou is: {dou}");
         }
 
 
 
-
-
-
-
+        
     }
 }
 
