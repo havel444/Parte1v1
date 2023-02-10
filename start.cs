@@ -18,10 +18,10 @@ namespace sintax{
         static void Main(string[] arg) {
 
             //explicita();
-            implicita();
+            //implicita();
             //constAndImput();
-        
-        
+            //methodsASD();
+            // Non-invocable member cannot be used like a method 
         
         
         
