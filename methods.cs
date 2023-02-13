@@ -5,10 +5,11 @@ namespace sintax{
     class methodsASD{
         
 
-        public void exmple() {
-            Console.WriteLine("asdddddd");
-        }
-    
+        public string example1(string name, string surname) => name + " " + surname; 
+        
+        
+        
+
     
     }
     

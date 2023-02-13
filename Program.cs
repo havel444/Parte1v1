@@ -23,9 +23,10 @@ namespace sintax{
             //methodsASD();
         
             var ki = new methodsASD();
-            ki.example("Alan", "Torres");
+            Console.WriteLine(ki.example1("Alan", "Torres"));
 
-        
+            // error CS1061
+            // instancias: programacion orientada a objetos.
         }
 
         static void explicita() {
