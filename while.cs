@@ -19,11 +19,11 @@ namespace cshard {
                 Console.WriteLine(alazar);
 
                 if (alazar == date1) {
-                    Console.WriteLine($"Congratulations, you won. Do you want to try again?.");
+                    Console.WriteLine($"Congratulations, you won. Do you want to try again? (yes or no).");
                     raflle = Console.ReadLine();
                 }
-                else if (alazar != 44) {
-                    Console.WriteLine("You lost. Do you want to try again?.");
+                else if (alazar != date1) {
+                    Console.WriteLine("You lost. Do you want to try again? (yes or no).");
                     raflle = Console.ReadLine();
                 }
                 else Console.WriteLine("Error");
@@ -38,6 +38,11 @@ namespace cshard {
 
 
         }
+
+
+        // ---------------------------------------------------
+        public 
+
 
 
     }
