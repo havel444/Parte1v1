@@ -19,18 +19,17 @@ namespace cshard {
                 Console.WriteLine(alazar);
 
                 if (alazar == date1) {
-                    Console.WriteLine($"Congratulations, you won");
+                    Console.WriteLine($"Congratulations, you won. Do you want to try again?.");
+                    raflle = Console.ReadLine();
                 }
                 else if (alazar != 44) {
-                    Console.WriteLine("You lost, do you want to try again?.");
+                    Console.WriteLine("You lost. Do you want to try again?.");
                     raflle = Console.ReadLine();
                 }
                 else Console.WriteLine("Error");
             }
 
             switch (raflle) {
-                case "yes": 
-                break;
                 case "no": Console.WriteLine("Finish");
                 break;
                 default: Console.WriteLine("Error");
