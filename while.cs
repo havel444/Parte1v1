@@ -5,11 +5,37 @@ namespace cshard {
     class bucleASD {
         public void while1() {
 
-            Console.WriteLine("Hello word");
+            Console.WriteLine("You want to participate in the raflle? (yes or no).");
+            string raflle = Console.ReadLine();
 
-            Random numeral = new Random();
-            int alazar = numeral.Next(1, 100);
-            Console.WriteLine(alazar);
+            while (raflle == "yes") {
+
+                Console.WriteLine("insert a number:");
+                int date1 = int.Parse(Console.ReadLine());
+
+
+                Random numero1 = new Random();
+                int alazar = numero1.Next(1, 4);
+                Console.WriteLine(alazar);
+
+                if (alazar == date1) {
+                    Console.WriteLine($"Congratulations, you won");
+                }
+                else if (alazar != 44) {
+                    Console.WriteLine("You lost, do you want to try again?.");
+                    raflle = Console.ReadLine();
+                }
+                else Console.WriteLine("Error");
+            }
+
+            switch (raflle) {
+                case "yes": 
+                break;
+                case "no": Console.WriteLine("Finish");
+                break;
+                default: Console.WriteLine("Error");
+                break;
+            }
 
 
         }
