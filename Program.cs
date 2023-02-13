@@ -31,9 +31,13 @@ namespace cshard{
 
             var ki3 = new conditionalsASD();
             //ki3.if1();
-            ki3.switch1();
+            //ki3.switch1();
 
-
+            var ki4 = new bucleASD();
+            ki4.while1();
+            
+                
+            
 
 
 
