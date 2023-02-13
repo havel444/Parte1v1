@@ -13,40 +13,28 @@ using System;
 
         // buble while
 
-namespace sintax{
+namespace cshard{
     class Program{
         static void Main(string[] arg) {
 
-            //explicita();
+            var ki1 = new sintaxASD();
+            ki1.explicita();
             //implicita();
             //constAndImput();
             //methodsASD();
         
-            var ki = new methodsASD();
-            Console.WriteLine(ki.example1("Alan", "Torres"));
+            var ki2 = new methodsASD();
+            //Console.WriteLine(ki2.parameters1("Alan", "Torres"));
+            //ki2.ambit1();
 
-            // error CS1061
+
+
+
+
+
+
             // instancias: programacion orientada a objetos.
         }
-
-        static void explicita() {
-            float flo = 23.4F;
-            int ent = (int)flo;
-            Console.WriteLine($"ent is: {ent}");
-        }
-        static void implicita() {
-            int ent = 23;
-            double dou = ent;
-            Console.WriteLine($"dou is: {dou}");
-        }
-        static void constAndImput() {
-            const double PI = 3.1416;
-            Console.WriteLine("Insert the diametro: ");
-            double diametro = double.Parse(Console.ReadLine());
-            double area1 = diametro * diametro * PI;
-            Console.WriteLine($"The area is: {area1}");
-        }
-        
     }
 }
 
