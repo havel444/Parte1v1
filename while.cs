@@ -15,7 +15,7 @@ namespace cshard {
 
 
                 Random numero1 = new Random();
-                int alazar = numero1.Next(1, 4);
+                int alazar = numero1.Next(1, 10);
                 Console.WriteLine(alazar);
 
                 if (alazar == date1) {
