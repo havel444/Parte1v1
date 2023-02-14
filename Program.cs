@@ -34,8 +34,8 @@ namespace cshard{
             //ki3.switch1();
 
             var ki4 = new bucleASD();
-            ki4.while1();
-            
+            //ki4.while1();
+            ki4.password1();
                 
             
 

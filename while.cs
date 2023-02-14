@@ -41,7 +41,24 @@ namespace cshard {
 
 
         // ---------------------------------------------------
-        public 
+        public void password1() {
+            int intentos = 0;
+            Console.WriteLine("Inserte la contraseña.");
+            string contr = Console.ReadLine();
+
+
+            while (intentos < 3) {
+                intentos++;
+                Console.WriteLine($"Intento numero {intentos}");
+
+                if (contr == "1234") Console.WriteLine("Bienvenido.");
+                else if(contr !=)
+
+            }
+            Console.WriteLine("Finish");
+
+
+        }
 
 
 
