@@ -42,11 +42,10 @@ namespace cshard {
 
         // ---------------------------------------------------
         public void password1() {
-            int intentos = 0;
+            int intentos = 1;
             string terminar = "";
 
-            while (intentos < 3 && terminar != "no") {
-                intentos++;
+            while (intentos <= 3 && terminar != "no") {
                 Console.WriteLine($"Intento numero {intentos}/3.");
                 
                 Console.WriteLine("Inserte el usuario.");
@@ -59,15 +58,17 @@ namespace cshard {
                     Console.WriteLine("Bienvenido.");
                     intentos = 3;
                 }
+                else if (intentos == 3) {
+                    Console.WriteLine("Superaste le maximo de intentos.");
+                }
                 else if(usuar != "alan" || contr != 1234) {
                     Console.WriteLine("Usuario o constraseña incorrecta. Quiere volver a intentarlo? (si o no).");
                     terminar = Console.ReadLine();
                 }
-                else if (intentos == 3) {
-                    Console.WriteLine("Superaste le maximo de intentos.");
+                else {
+                    Console.WriteLine("Error.");
                 }
-                else Console.WriteLine("Error.");
-
+                intentos++;
             }
 
             Console.WriteLine("Finish");
