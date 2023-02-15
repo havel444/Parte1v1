@@ -15,7 +15,7 @@ namespace cshard{
         public void constAndImput() {
             const double PI = 3.1416;
             Console.WriteLine("Insert the diametro: ");
-            double diametro = double.Parse(Console.ReadLine());
+            double diametro = double.Parse(Console.ReadLine()!);
             double area1 = diametro * diametro * PI;
             Console.WriteLine($"The area is: {area1}");
         }

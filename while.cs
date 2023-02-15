@@ -54,8 +54,8 @@ namespace cshard
             {
                 Console.WriteLine($"Intento numero {intentos}/3.");
 
-                var usuar = Message("Inserte el usuario");
-                var contr = Message("Inserte la contraseña");
+                var usuar = Combo1("Inserte el usuario");
+                var contr = Combo1("Inserte la contraseña");
 
                 if (usuar == "alan" && contr == "1234")
                 {
@@ -68,7 +68,7 @@ namespace cshard
                 }
                 else if (usuar != "alan" || contr != "1234")
                 {
-                    terminar = Message(
+                    terminar = Combo1(
                         "Usuario o constraseña incorrecta. Quiere volver a intentarlo? (si o no)."
                     );
                 }
@@ -81,20 +81,25 @@ namespace cshard
 
             Console.WriteLine("Finish");
         }
-
-        public string Message(string message)
-        {
-            Console.WriteLine(message);
-            string info = Console.ReadLine()!;
-            return info;
-        }
-
+        
         // ---------------------------------------------------
 
 
         public void random1()
         {
             Console.WriteLine("Do yuo want to participate? (yes or no).");
+
+
+
+
         }
+
+        public string Combo1(string Message) {
+            Console.WriteLine(Message);
+            string imput = Console.ReadLine()!;
+            return imput;
+        }
+
+
     }
 }
