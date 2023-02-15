@@ -81,25 +81,25 @@ namespace cshard
 
             Console.WriteLine("Finish");
         }
-        
+
         // ---------------------------------------------------
 
 
         public void random1()
         {
             Console.WriteLine("Do yuo want to participate? (yes or no).");
-
-
-
-
         }
 
-        public string Combo1(string Message) {
+        public string Combo1(string Message)
+        {
             Console.WriteLine(Message);
-            string imput = Console.ReadLine()!;
-            return imput;
+            string Imput = Console.ReadLine()!;
+            return Imput;
         }
 
-
+        public void Text1(string Message)
+        {
+            Console.WriteLine(Message);
+        }
     }
 }
