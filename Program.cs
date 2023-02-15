@@ -30,9 +30,9 @@ namespace Parte1
             // ki3.switch1();
 
             var ki4 = new bucleASD();
-            // ki4.while1();
-            // ki4.password1();
-            ki4.random1();
+            // ki4.While();
+            // ki4.Password();
+            ki4.Random();
 
 
             // TODO Instancias: programacion orientada a objetos. //

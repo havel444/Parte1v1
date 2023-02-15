@@ -1,10 +1,8 @@
-using System;
-
 namespace Parte1
 {
     class bucleASD
     {
-        public void while1()
+        public void While()
         {
             Console.WriteLine("You want to participate in the raflle? (yes or no).");
             string raflle = Console.ReadLine()!;
@@ -45,61 +43,66 @@ namespace Parte1
         }
 
         // ---------------------------------------------------
-        public void password1()
-        {
-            int intentos = 1;
-            string terminar = "";
+        // public void Password()
+        // {
+        //     int intentos = 1;
+        //     string terminar = "";
 
-            while (intentos <= 3 && terminar != "no")
-            {
-                Console.WriteLine($"Intento numero {intentos}/3.");
+        //     while (intentos <= 3 && terminar != "no")
+        //     {
+        //         Console.WriteLine($"Intento numero {intentos}/3.");
 
-                var usuar = Combo1("Inserte el usuario");
-                var contr = Combo1("Inserte la contraseña");
+        //         var usuar = Combo1("Inserte el usuario");
+        //         var contr = Combo1("Inserte la contraseña");
 
-                if (usuar == "alan" && contr == "1234")
-                {
-                    Console.WriteLine("Bienvenido.");
-                    intentos = 3;
-                }
-                else if (intentos == 3)
-                {
-                    Console.WriteLine("Superaste le maximo de intentos.");
-                }
-                else if (usuar != "alan" || contr != "1234")
-                {
-                    terminar = Combo1(
-                        "Usuario o constraseña incorrecta. Quiere volver a intentarlo? (si o no)."
-                    );
-                }
-                else
-                {
-                    Console.WriteLine("Error.");
-                }
-                intentos++;
-            }
+        //         if (usuar == "alan" && contr == "1234")
+        //         {
+        //             Console.WriteLine("Bienvenido.");
+        //             intentos = 3;
+        //         }
+        //         else if (intentos == 3)
+        //         {
+        //             Console.WriteLine("Superaste le maximo de intentos.");
+        //         }
+        //         else if (usuar != "alan" || contr != "1234")
+        //         {
+        //             terminar = Combo1(
+        //                 "Usuario o constraseña incorrecta. Quiere volver a intentarlo? (si o no)."
+        //             );
+        //         }
+        //         else
+        //         {
+        //             Console.WriteLine("Error.");
+        //         }
+        //         intentos++;
+        //     }
 
-            Console.WriteLine("Finish");
-        }
+        //     Console.WriteLine("Finish");
+        // }
 
         // ---------------------------------------------------
 
 
-        public void random1()
+        public void Random()
         {
-            Console.WriteLine("Do yuo want to participate? (yes or no).");
+            string Access = Combo("Do yuo want to participate? (yes or no).");
         }
 
-        public string Combo1(string Message)
+        public string Combo(string Message) 
         {
             Console.WriteLine(Message);
-            string Imput = Console.ReadLine()!;
-            return Imput;
+            string Replay = Console.ReadLine()!;
+            return Replay;
         }
-
-        public void Text1(string Message)
+        public string Text(string Message) 
         {
             Console.WriteLine(Message);
+            return Message;
+        }
+        public string Imput()
+        {
+            string Replay = Console.ReadLine()!;
+            return Replay;
         }
     }
 }
