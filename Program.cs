@@ -1,7 +1,7 @@
 using Parte1;
 using Parte1.Message;
 
-namespace cshard
+namespace Parte1
 {
     class Program
     {

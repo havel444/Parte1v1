@@ -1,6 +1,6 @@
 using System;
 
-namespace cshard{
+namespace Parte1{
     class sintaxASD{
         public void explicita() {
             float flo = 23.4F;

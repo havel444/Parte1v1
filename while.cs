@@ -1,6 +1,6 @@
 using System;
 
-namespace cshard
+namespace Parte1
 {
     class bucleASD
     {

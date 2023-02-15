@@ -1,18 +1,18 @@
 using System;
 
-namespace cshard
+namespace Parte1
 {
     class conditionalsASD
     {
         public void if1()
         {
             Console.WriteLine("What is you age?");
-            int age1 = int.Parse(Console.ReadLine());
+            int age1 = int.Parse(Console.ReadLine()!);
 
             if (age1 >= 18)
             {
                 Console.WriteLine("Imput category: premium or standar?");
-                string imput1 = Console.ReadLine();
+                string imput1 = Console.ReadLine()!;
                 if (imput1 == "premium")
                 {
                     Console.WriteLine("You pass.");
@@ -26,7 +26,7 @@ namespace cshard
             else if (age1 < 18)
             {
                 Console.WriteLine("You come with an adult? (yes or no).");
-                string adult1 = Console.ReadLine();
+                string adult1 = Console.ReadLine()!;
                 if (adult1 == "yes")
                     Console.WriteLine("Wait in the line.");
                 else if (adult1 == "no")
