@@ -87,7 +87,41 @@ namespace Parte1
 
 
 
-        
+
+        public void Password02()
+        {
+            string Access = ComboString("You want participate? (yes or no).");
+            int Point = 0;
+
+            while(Access == "yes" && Point < 3)
+            {
+                Point += 1;
+                TextString($"Attempt {Point}/3");
+                
+                int UserPassword = int.Parse(ComboString("Insert your password."));
+
+                if(Point == 3)
+                {
+                    TextString("Excess attempts.");
+                    
+                }
+                else if(UserPassword == 1234)
+                {
+                    TextString("Wellcome.");
+                }
+                else if(UserPassword != 1234)
+                {
+                    TextString("Incorrect password.");
+                }
+                else
+                {
+                    TextString("ERROR.");
+                }
+            }
+            TextString("Finish.");
+
+
+        }
 
 
 
@@ -100,7 +134,6 @@ namespace Parte1
 
 
 
-        
 
 
 
@@ -119,29 +152,16 @@ namespace Parte1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // public string ComboString(string Message)
-        // {
-        //     Console.WriteLine(Message);
-        //     string Replay = Console.ReadLine()!;
-        //     return Replay;
-        // }
-        // public string TextString(string Message)
-        // {
-        //     Console.WriteLine(Message);
-        //     return Message;
-        // }
+        public string ComboString(string Message)
+        {
+            Console.WriteLine(Message);
+            string Replay = Console.ReadLine()!;
+            return Replay;
+        }
+        public string TextString(string Message)
+        {
+            Console.WriteLine(Message);
+            return Message;
+        }
     }
 }

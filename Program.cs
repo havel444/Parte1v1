@@ -32,11 +32,20 @@ namespace Parte1
             var ki4 = new bucleASD();
             // ki4.While();
             // ki4.Password();
-            // ki4.Random();
+            ki4.Password02();
 
+            // var (valor1, valor2) = MaxMin();
+            // Console.WriteLine(valor1);
 
             // TODO Instancias: programacion orientada a objetos. //
         }
+
+        // public static(int, int) MaxMin()
+        // {
+
+        //     return (12,20);
+        // }
+
 
         // public static string Logger(string name, string password)
         // {
