@@ -83,43 +83,24 @@ namespace Parte1
         // ---------------------------------------------------
 
 
-        public void Random()
-        {
-            string Access = ComboString("Do yuo want to participate? (yes or no).");
-            int Try = 0;
 
-            while (Access == "yes" && Try < 5)
-            {
-                Try += 1;
-                TextString($"Intent number {Try}/5");
 
-                int Number = int.Parse(ComboString("Insert a number of the 1 to 15."));
 
-                Random Num = new Random();
-                int Azar = Num.Next(1, 15);
 
-                if (Try == 5)
-                {
-                    TextString("You exceeded the maximum number of attempts.");
-                }
-                else if (Number == Azar)
-                {
-                    TextString("Congratulations");
-                    Access = "no";
-                }
-                else if (Number < Azar)
-                {
-                    TextString("Your number is less.");
-                }
-                else if (Number > Azar)
-                {
-                    TextString("You number is hisher.");
-                }
-                else
-                    TextString("Error.");
-            }
-            TextString("FINISH.");
-        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
 
 
@@ -140,17 +121,27 @@ namespace Parte1
 
 
 
-        public string ComboString(string Message)
-        {
-            Console.WriteLine(Message);
-            string Replay = Console.ReadLine()!;
-            return Replay;
-        }
 
-        public string TextString(string Message)
-        {
-            Console.WriteLine(Message);
-            return Message;
-        }
+
+
+
+
+
+
+
+
+
+
+        // public string ComboString(string Message)
+        // {
+        //     Console.WriteLine(Message);
+        //     string Replay = Console.ReadLine()!;
+        //     return Replay;
+        // }
+        // public string TextString(string Message)
+        // {
+        //     Console.WriteLine(Message);
+        //     return Message;
+        // }
     }
 }

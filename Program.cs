@@ -32,7 +32,7 @@ namespace Parte1
             var ki4 = new bucleASD();
             // ki4.While();
             // ki4.Password();
-            ki4.Random();
+            // ki4.Random();
 
 
             // TODO Instancias: programacion orientada a objetos. //
